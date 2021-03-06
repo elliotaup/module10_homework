@@ -1,0 +1,68 @@
+.task-1 {
+    display: grid;
+    justify-content: center;
+}
+
+.task-2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+
+
+.bi-arrow-down-left-circle path:last-child {
+    display: none;
+}
+
+.bi-arrow-down-left-circle-full path:first-child {
+    display: none;
+}
+
+
+
+
+#chat {
+    width: 500px;
+    margin: 15px auto;
+    padding: 20px;
+}
+
+.info_output,
+.output {
+    color: grey;
+    font-style: Ubuntu bold;
+}
+
+.chat_output {
+    margin: 20px 0;
+    border: grey solid;
+    border-radius: 6px;
+    padding: 10px;
+    overflow-y: scroll;
+    height: 350px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.chat_output>div {
+    max-width: 80%;
+    margin: 5px 0;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.chat_output .recieved {
+    background: #3949ab;
+    align-self: flex-start;
+}
+
+.chat_output .sent {
+    background: #7c4dff;
+    align-self: flex-end;
+}
