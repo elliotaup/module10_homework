@@ -75,3 +75,28 @@ function pageLoaded() {
 }
 
 document.addEventListener("DOMContentLoaded", pageLoaded);
+
+const qwe = document.querySelector('change');
+const svg = document.querySelector('svg')
+
+const full = 'bi-arrow-down-left-circle-full'
+const empty = 'bi-arrow-down-left-circle'
+
+qwe.addEventListener('click', (e) => {
+    if (svg.classList.contains(empty)) {
+        svg.classList.remove(empty)
+        svg.classList.add(full)
+    } else {
+        svg.classList.remove(full)
+        svg.classList.add(empty)
+    }
+})
+
+
+const asd = document.querySelector('size');
+
+asd.addEventListener('click', (e) => {
+    let height = window.screen.height;
+    let width = window.screen.width;
+    alert(`Ширина экрана - ${width}, Высота экрана -  ${height}`)
+})
