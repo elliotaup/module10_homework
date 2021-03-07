@@ -1,14 +1,16 @@
-.task-1 {
-    display: grid;
+.task-2 {
     justify-content: center;
+    display: grid;
+    margin-top: 50px;
 }
 
-.task-2 {
-    display: grid;
+.task-3 {
     justify-content: center;
-    align-items: center;
-    margin-top: 100px;
+    display: grid;
+    margin-top: 50px;
 }
+
+
 
 
 
